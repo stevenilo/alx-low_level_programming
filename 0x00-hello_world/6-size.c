@@ -4,7 +4,7 @@
 * main - print the string in the function
 *
 * this progam prints size of various types
-* return: 0
+* Return: 0
 */
 
 int main()
