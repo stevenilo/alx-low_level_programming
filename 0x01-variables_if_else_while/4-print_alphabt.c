@@ -2,7 +2,7 @@
 /**
  *main - print the alphabet in lowercase followedby a new lin
  *using the main function
- *Retrun: 0
+ *Return: 0
  */
 
 int main(void)
