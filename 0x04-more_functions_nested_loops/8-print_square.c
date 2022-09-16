@@ -17,14 +17,14 @@ for (inc1 = 0; inc1 < size; inc1++)
 {
 for (inc2 = 0; inc2 < (size - 1); inc2++)
 {
-putchar('#');
+_putchar('#');
 }
-putchar('#');
-putchar('\n');
+_putchar('#');
+_putchar('\n');
 }
 }
 else
 {
-putchar('\n');
+_putchar('\n');
 }
 }
