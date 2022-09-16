@@ -2,8 +2,8 @@
 
 /**
  * main - prints the number 1-100 but multiples of 3 print
- *      Fizz and Buzz for thr multiples of 5 and Fizzbuzz
- *      For both 5 and 3
+ * Fizz and Buzz for thr multiples of 5 and Fizzbuzz
+ * For both 5 and 3
  *
  * Return: Always 0;
  */
