@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *print_traingles - prints a triangle using #
+ *print_traingle - prints a triangle using #
  *@size: the size of the traingle.
  */
 
@@ -13,7 +13,7 @@ if (size > 0)
 {
 for (hash = 1; hash <= size; hash++)
 {
-for (index = size-has; index > 0; index--)
+for (index = size - hash; index > 0; index--)
 {
 putchar(' ');
 }
