@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -22,6 +23,6 @@ else
 i = (count - 1) / 2;
 
 for (i++; i < count; i++)
-printf(str[i]);
-printf('\n');
+putchar(str[i]);
+putchar('\n');
 }
