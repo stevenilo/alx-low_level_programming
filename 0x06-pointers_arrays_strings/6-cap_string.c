@@ -1,50 +1,17 @@
 #include "main.h"
 
 /**
- * _strlen - returns the length of a string
- * @s: string
- * Return: returns length as integer
- */
-
-int _strlen(char *s)
-{
-int len = 0;
-
-while (*(s + len) != '\0')
-len++;
-
-return (len);
-}
-
-/**
- * cap_string - function that capitalize first character of a word
- * @str: string to capitalize
+ * cap_string - function that capitalize all words of string
+ * @s: input string to capitalize
  * Return: returns the capitalized string
  */
 
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
-int index = 0;
+  int count = 0, i;
+  int sep_words[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
 
-while (str[++index])
-{
-while (!(str[index] >= 'a') && (str[index] <= 'z'))
-index++;
-
-if (str[index - 1] == ' ' ||
-str[index - 1] == '\t' ||
-str[index - 1] == '\n' ||
-str[index - 1] == ',' ||
-str[index - 1] == ';' ||
-str[index - 1] == '.' ||
-str[index - 1] == '!' ||
-str[index - 1] == '?' ||
-str[index - 1] == '"' ||
-str[index - 1] == '(' ||
-str[index - 1] == ')' ||
-str[index - 1] == '{' ||
-str[index - 1] == '}')
-str[index] -= 32;
+  if (*(s + count) >= 97 && *(s + count) <= 122) 
 }
 return (str);
 }
