@@ -2,17 +2,17 @@
 
 /**
  * cap_string - function that capitalize all words of string
- * @s: input string to capitalize
+ * @str: input string to capitalize
  * Return: returns the capitalized string
  */
 
-char *cap_string(char *s)
+char *cap_string(char *str)
 {
 int index = 0;
 
 while (str[index])
 {
-while (!(str[index >= 'a' && str[index] <= '2'))
+while (!(str[index >= 'a' && str[index] <= '2']))
 index++;
 
 if (str[index - 1] == ' ' ||
