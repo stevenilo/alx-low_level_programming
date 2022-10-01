@@ -9,20 +9,15 @@
  * Return: 0;
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char const *argv[])
 {
-int index, multiplication;
+(void)argc;
 
-multiplication = 1;
-if (argc < 3)
+if (argc != 3)
 {
-printf("Error\n");
+rintf("Error\n");
 return (1);
 }
-for (index = 1; index < argc; index++)
-{
-multiplication = multiplication * atoi(argv[index]);
-}
-printf("%d\n", multiplication);
+printf("%i\n", atoi(argv[1]) * atoi(argv[2]));
 return (0);
 }
