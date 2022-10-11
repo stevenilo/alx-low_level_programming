@@ -1,10 +1,12 @@
 #include "dog.h"
-#incude < stdlib.h >
+#include <stdlib.h>
+#include <stddef.h>
 
 /**
  * init_dog - Initialize a variable of type struct dog.
- * @d: The dog to be initialized 
+ * @d: The dog to be initialized
  * @name: The name of the dog
+ * @age: The age of the dog
  * @owner: The owner of the dog
  */
 
